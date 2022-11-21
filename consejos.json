@@ -1,0 +1,27 @@
+[
+	{
+		"categoria": "Material",
+		"dificultad": "Fácil",
+		"descripcion": "Hay objetivos para todo tipo de fotografías, por lo que tener varios y cambiarlos dependiendo del momento, hará que mejore mucho la calidad. "
+	},
+	{
+		"categoria": "Iluminación",
+		"dificultad": "Difícil",
+		"descripcion": "Elige una buena iluminación a la hora de hacer la fotografía. Que un lugar esté bien o mal iluminado puede cambiar completamente la calidad de una imagen."
+	},
+	{
+		"categoria": "Retrato",
+		"dificultad": "Normal",
+		"descripcion": "A la hora de hacer una foto retrato, intenta enfocar bien a los ojos de la persona, esto le dará una gran personalidad a tu imagen."
+	},
+	{
+		"categoria": "Fotografía",
+		"dificultad": "Fácil",
+		"descripcion": "Puede parecer obvio, pero el mejor consejo es que practiques, y poco a poco irás aprendiendo tú mismo diferentes técnicas adaptadas a tu estilo de fotografía."
+	},
+	{
+		"categoria": "Fotografía",
+		"dificultad": "Normal",
+		"descripcion": "Intenta no usar el zoom en la medida de lo posible, ya que reduce la calidad de la imagen. Si puedes acercarte por tu propio pie, la foto ganará mucho más que si usas zoom."
+	}
+]

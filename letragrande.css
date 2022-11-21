@@ -1,0 +1,110 @@
+@import url("estilo.css");
+
+@media all{
+
+	.enlace{
+		font-size: 40px;
+	}
+
+	.enlacebusqueda{
+		font-size: 40px;
+	}
+
+	/*BODY*/
+
+	h1{
+		font-size: 75px;
+	}
+
+	h2{
+		font-size: 40px;
+	}
+
+	h3{
+		font-size: 30px;
+	}
+
+	body>p>a{
+		font-size: 30px;
+	}
+	body>div>div{
+		width: 420px;
+		height: 625px;
+	}
+
+	body>div>p{
+		font-size: 30px;
+	}
+
+    fieldset>legend{
+        font-size: x-large;
+    }
+
+    fieldset>form>p{
+        font-size: 25px;
+    }
+
+    fieldset>div{
+        font-size: 20px;
+	}
+
+	div>select{
+        font-size: 20px;
+    }
+	
+	/*INPUT*/
+
+    input[type="text"]{
+        font-size: 20px;
+    }
+
+    input[type="password"]{
+        font-size: 20px;
+    }
+
+    input[type="submit"]{
+        font-size: 20px;
+    }
+
+    input[type="email"]{
+        font-size: 20px;
+    }
+
+    input[type="tel"]{
+        font-size: 20px;
+    }
+    
+    input[type="color"]{
+        height: 25px;
+        width: 200px;
+    }
+
+    input[type="number"]{
+        font-size: 20px;
+	}
+	
+    input[type="date"]{
+        font-size: 20px;
+	}
+
+	/*DIV*/
+
+    div>div>p{
+        font-size: 30px;
+	}
+
+	div>article>p{
+		font-size: 25px;
+	}
+
+	div>p{
+		font-size: 25px;
+	}
+
+	/*FOOTER*/
+
+	footer{
+		font-size: 25px;
+	}
+
+}

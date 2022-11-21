@@ -1,0 +1,26 @@
+
+	{
+		"categoria":"",
+		"dificultad":"",
+		"descripcion":""
+	},
+	{
+		"categoria":"",
+		"dificultad":"",
+		"descripcion":""
+	},
+	{
+		"categoria":"",
+		"dificultad":"",
+		"descripcion":""
+	},
+	{
+		"categoria":"",
+		"dificultad":"",
+		"descripcion":""
+	},
+	{
+		"categoria":"",
+		"dificultad":"",
+		"descripcion":""
+	}
