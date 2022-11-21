@@ -1,0 +1,21 @@
+@import url("estilo.css");
+
+@media all{
+
+    body{
+		filter: contrast(125%);
+		background-image: url("imagenes/contrast.jpg");
+	}
+	
+	h1{
+		filter: contrast(150%)
+	}
+
+    img{
+        filter: contrast(250%);
+	}
+	
+	fieldset{
+		filter: contrast(150%);
+	}
+}

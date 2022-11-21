@@ -1,0 +1,44 @@
+
+
+
+	
+
+
+	@page {
+		margin: 0.5cm;
+	}
+
+	@page :left {
+		margin: 0.5cm;
+	}
+
+	@page :right {
+		margin: 0.8cm;
+	}
+
+	@page :first {
+	  margin: 1cm 2cm;
+	}
+
+	#formuini{
+		display: none;
+	}
+
+	#enbusc{
+		display: none;
+	}
+
+	section>div{
+		break-after: always;
+	}
+
+	img{
+		filter: grayscale(160%);
+	}
+
+	footer{
+		display: none;
+	}
+
+	
+

@@ -1,0 +1,385 @@
+@media screen{
+		*{
+		box-sizing:border-box;
+		font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+		color: #FFFFFF;
+		
+	}
+
+
+	ul{
+		list-style: none;
+		list-style-type: none;
+	}
+
+	select{
+		color: #000;
+	}
+	option{
+		color: #000;
+	}
+
+	/*CLASES*/
+
+	.enlace{
+	    text-decoration: none;
+	    padding: 3px;
+	    margin: 5px;
+	    margin-bottom: 10px;
+	    padding-left: 10px;
+	    padding-right: 10px;
+	    font-family: helvetica;
+	    font-weight: 300;
+	    font-size: 25px;
+	    font-style: italic;
+	    color: #FFFFFF;
+	    background-color: #000;
+	    border-radius: 15px;
+	    border: 3px double #0F0E0E;
+	  }
+	  .enlace:hover{
+	    opacity: 0.6;
+	    text-decoration: none;
+	  }
+
+	  .enlacebusqueda{
+	  	display: grid;
+		grid-template-columns: repeat(auto-fill, 100px);
+		display:flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		text-decoration: none;
+	    padding: 3px;
+	    margin: 5px;
+	    margin-bottom: 10px;
+	    padding-left: 10px;
+	    padding-right: 10px;
+	    font-family: helvetica;
+	    font-weight: 300;
+	    font-size: 25px;
+	    font-style: italic;
+	    color: #FFFFFF;
+	    background-color: #000;
+	    border-radius: 15px;
+	    border: 3px double #0F0E0E;
+	  }
+
+	   .enlacebusqueda:hover{
+	    opacity: 0.6;
+	    text-decoration: none;
+	  }
+	  		
+
+	.sb{
+		margin-left: 50px;
+		color: #FFFFFF;
+	}
+
+	#detalle{
+		text-align: center;
+		align-items: center;
+		align-content: center;
+		justify-content: center;
+	}
+
+	/*INPUT*/
+
+	.ini{
+		margin-left: 45px;
+	}
+
+	.ini2{
+		margin-left: 65px;
+		background-color: #FFFFFF;
+		border-radius: 50px / 25px;
+	}
+
+	input{
+		cursor: pointer;
+		padding: .2em;
+		color: #000;
+		background-color: #FFFFFF;
+	}
+
+
+	input:focus, textarea:focus{
+		border: 2px solid #C00;
+		background: #EBF0AC;
+	}
+	input:hover, textarea:hover{
+		background: #E7F44C;
+	}
+
+	header>h1{
+		text-align: center;
+	}
+
+	/*LOGIN - LOGOUT*/
+
+
+
+	body>header>div>fieldset{
+		max-width: 210px;
+		border-radius: 50px / 25px;
+		display:flex;
+		flex-wrap: wrap;
+		margin-bottom: 10px;
+
+	}
+
+
+
+	body>header>fieldset>legend{
+		margin-left: 10px;
+	}
+
+
+
+	/*BODY*/
+
+	body{
+		color: #F20E34;
+		background-image: url("imagenes/fondomet.jpg");
+		background-size: 100%;
+		padding: .5em;
+	}
+
+		body>h1{
+			border:  1px solid black;
+			text-align: center;
+			background-color: #ABA7A7;
+		}
+
+		body>footer{
+				background-color: #000;
+				color: #FFFFFF;
+				font-weight: bold;
+				text-align: center;
+				padding: .5em;
+		}
+
+		#cajas{
+			display: grid;
+			grid-template-columns: repeat(auto-fill, 50px);
+			display:flex;
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+
+		body>div>div{
+			width: 300px;
+			height: 300px;
+			margin: 25px;
+			text-align: center;
+			background-color: #FFF;
+			border-radius: 50px / 25px;
+			padding: 2em;
+			background-image: url("imagenes/fondomet.jpg");
+		}
+
+		body>h2{
+			border: 1px solid white;
+			text-align: center;
+			margin: auto;
+			margin-top: 10px;
+		}
+
+		body>footer>p{
+			margin: 0;
+			color: #FFFFFF;
+		}
+
+	table, th, td {
+	    border: 1px solid white;
+	}
+
+
+
+	@media all and (max-width: 1920px){
+				img{
+				width: 60%;
+				height: 60%;
+				/*flex-grow: 1;*/
+			}
+	}
+
+	@media all and (max-width: 300px){
+			p{
+				font-size: 80%;
+			}
+	}
+
+	@media all and (max-width: 250px){
+			p{
+				font-size: 70%;
+			}
+	}
+
+	@media all and (max-width: 213px){
+			p{
+				font-size: 60%;
+			}
+	}
+
+	@media all and (max-width: 200px){
+			p{
+				font-size: 55%;
+			}
+	}
+}
+
+@media print{
+		*{
+		box-sizing:border-box;
+		font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+		color: #FFFFFF;
+		
+	}
+
+
+
+	#detalle{
+		text-align: center;
+		align-items: center;
+		align-content: center;
+		justify-content: center;
+	}
+
+	/*INPUT*/
+
+	
+	header>h1{
+		text-align: center;
+	}
+
+	/*LOGIN - LOGOUT*/
+
+
+
+	body>header>div>fieldset{
+		max-width: 210px;
+		border-radius: 50px / 25px;
+		display:flex;
+		flex-wrap: wrap;
+		margin-bottom: 10px;
+
+	}
+
+
+
+	body>header>fieldset>legend{
+		margin-left: 10px;
+	}
+
+
+
+
+		body>h1{
+			border:  1px solid black;
+			text-align: center;
+			background-color: #ABA7A7;
+		}
+
+		#cajas{
+			display: grid;
+			grid-template-columns: repeat(auto-fill, 300px);
+		}
+
+		body>div>div{
+			width: 300px;
+			height: 300px;
+			margin: 25px;
+			text-align: center;
+			background-color: #FFF;
+			border-radius: 50px / 25px;
+			padding: 2em;
+		}
+
+		body>h2{
+			border: 1px solid white;
+			text-align: center;
+			margin: auto;
+			margin-top: 10px;
+		}
+
+		body>footer>p{
+			margin: 0;
+			color: #FFFFFF;
+			text-align: center;
+		}
+
+	table, th, td {
+	    border: 1px solid white;
+	}
+
+
+
+	@media all and (max-width: 1920px){
+				img{
+				width: 60%;
+				height: 60%;
+				/*flex-grow: 1;*/
+			}
+	}
+
+	@media all and (max-width: 300px){
+			p{
+				font-size: 80%;
+			}
+	}
+
+	@media all and (max-width: 250px){
+			p{
+				font-size: 70%;
+			}
+	}
+
+	@media all and (max-width: 213px){
+			p{
+				font-size: 60%;
+			}
+	}
+
+	@media all and (max-width: 200px){
+			p{
+				font-size: 55%;
+			}
+	}
+
+	@page {
+		margin: 0.5cm;
+	}
+
+	@page :left {
+		margin: 0.5cm;
+	}
+
+	@page :right {
+		margin: 0.8cm;
+	}
+
+	@page :first {
+	  margin: 1cm 2cm;
+	}
+
+	#formuini{
+		display: none;
+	}
+
+	#enbusc{
+		display: none;
+	}
+
+	section>div{
+		page-break-inside: avoid;
+	}
+
+	img{
+		filter: grayscale(160%);
+	}
+
+	/*footer{
+		display: none;
+	}*/
+}
+

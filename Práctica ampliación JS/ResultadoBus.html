@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Pictures & images - Resultado búsqueda</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="alternate stylesheet" href="dia.css" title="Modo dia">
+    <link rel="alternate stylesheet" href="contraste.css" title="Modo alto contraste">
+    <link rel="alternate stylesheet" href="letragrande.css" title="Modo letras grandes">
+    <link rel="alternate stylesheet" href="contrasteyletra.css" title="Alto contraste y letras grandes">
+    <script src="codigo.js"></script>
+</head>
+<body>
+    <header>
+        <!--LOGOTIPO -->
+        <h1><a href="index.html"><strong>PICTURES & IMAGES</strong></a></h1>    
+    </header>
+    <h2>Filtros: Atardecer</h2>
+    <h3>Fotos encontradas: 3</h3>
+    <button onclick="cambiaorden('titulo1');">Ordenar por título acendente</button>
+    <button onclick="cambiaorden('titulo2')">Ordenar por título descendente</button>
+    <button onclick="cambiaorden('fecha1')">Ordenar por fecha acendente</button>
+    <button onclick="cambiaorden('fecha2')">Ordenar por fecha descendente</button>
+    <button onclick="cambiaorden('pais1')">Ordenar país acendente</button>
+    <button onclick="cambiaorden('pais2')">Ordenar por país descendente</button>
+    <div id="cajas">
+        
+    </div>
+    <footer>
+		<p>Copyright &copy;<time datetime="2020"> 2020 </time> &nbsp; Javier Martín - Daniel Laguna &nbsp; <a href="index.html" class="sb"> Sobre nosotros</a>
+		&nbsp; <a href="Accesibilidad.html" class="sb">Declaración de accesibilidad</a></p>
+	</footer>
+    <script>resultadobus();</script>
+    <script>cambiaorden();</script>
+</body>
+</html>

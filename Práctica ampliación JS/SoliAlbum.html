@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Pictures & images - Solicitar album</title>
+    <style>
+        table.center {
+           margin-left: auto;
+           margin-right: auto;
+       }
+       
+       html, body {
+           width: 100%;
+       }
+    </style>  
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="alternate stylesheet" href="dia.css" title="Modo dia">
+    <link rel="alternate stylesheet" href="contraste.css" title="Modo alto contraste">
+    <link rel="alternate stylesheet" href="letragrande.css" title="Modo letras grandes">
+    <link rel="alternate stylesheet" href="contrasteyletra.css" title="Alto contraste y letras grandes">
+    <script src="tabla.js"></script>
+</head>
+<body>
+    <header>
+        <!--LOGOTIPO -->
+        <h1><a href="indexlog.html"><strong>PICTURES & IMAGES</strong></a></h1>    
+    </header>
+        <div style="text-align: center;"><form id="formid" action="RespSoliAlbum.html">
+            <p>Con esta opción, podrás crear el álbum que quieras, basándote en varias tarifas y criterios que tendrás que seleccionar y rellenar.</p>
+            <div style="text-align: center;">
+                <p><strong>Tarifas:</strong></p>
+                <table class="center">
+                    <thead>
+                        <tr>
+                            <th>Concepto</th>
+                            <th>Tarifas</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Menos de 5 páginas</td><td>0.10 € por página</td></tr>
+                        <tr><td>Entre 5 y 11 páginas</td><td>0.08 € por página</td></tr>
+                        <tr><td>Más de 11 páginas</td><td>0.07 € por página</td></tr>
+                        <tr><td>Blanco y negro</td><td>0 €</td></tr>
+                        <tr><td>Color</td><td>0.05 € por foto</td></tr>
+                        <tr><td>Resolución mayor a 300 dpi</td><td>0.02 € por foto</td></tr>
+                    </tbody>
+                </table><br>
+            </div>
+            <div>
+                <label for="usuario">Nombre</label>
+                <input type="text" id="usuario" name="nombre" placeholder="nombre, apellidos" maxlength="200" required autofocus pattern="[A-Za-z]{1,1}.[A-Za-z0-9]{2,19}"/><span class="icon-user"></span>
+            </div><br>
+            <div>
+                <label for="tituloalbum">Título del álbum</label>
+                <input type="text" id="tituloalbum" name="tituloalbum" maxlength="200" required /><span class="icon-pencil"></span>
+            </div><br>
+            <div>
+                <label for="textoadicional">Texto adicional</label>
+                <input type="text" id="textoadicional" name="textoadicional" maxlength="4000"/><span class="icon-doc-text-inv"></span>
+            </div><br>
+            <div>
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email" name="email" maxlength="200" required /><span class="icon-mail"></span>
+            </div><br>
+            <div>
+                <label for="direccion">Dirección</label>
+                <input type="text" id="direccion" name="direccion" placeholder="(calle, número, piso, puerta, código postal, localidad, provincia, país" size="55" required /><span class="icon-home"></span>
+            </div><br>
+            <div>
+                <label for="telefono">Teléfono</label>
+                <input type="tel" id="telefono" name="telefono"/><span class="icon-phone"></span>
+            </div><br>
+            <div>
+                <label for="color">Color</label>
+                <input type="color" id="color" name="color" value="#ff0000"/>
+            </div><br>
+            <div>
+                <label for="numcopias">Número de copias</label>
+                <input type="number" id="numcopias" name="numcopias" value="1" min="1"/><span class="icon-sort-number-up"></span>
+            </div><br>
+            <div>
+                <label for="resolucion">Resolución de las fotos</label>
+                <input type="number" id="resolucion" name="resolucion" value="150" min="150" max="900" step="150" placeholder="(DPI)" /><span class="icon-camera"></span>
+            </div><br>
+            <div>
+                <label for="albumes">Álbum de fotos</label>
+                <select name="albumes" id="albumes">
+                    <option value="al1">Mi primer album</option>
+                    <option value="al2">Fotos viajes</option>
+                </select>
+                <span class="icon-picture"></span>
+            </div><br>
+            <div>
+                <label for="fecha">Fecha de recepción</label>
+                <input type="date" id="fecha" name="fecha"/>
+            </div><br>
+            <div>
+                <label for="impcolor">Impresión a color</label>
+                <select name="impcolor" id="impcolor">
+                    <option>Blanco y negro</option>
+                    <option>A todo color</option>
+                </select>
+                <span class="icon-color-adjust"></span>
+            </div><br>
+            <input type="submit" value="Solicitar">
+            <div id="table">
+                <p><input type="button" value="Tabla ejemplo" id="metodo2" /></p>
+            </div>
+        </form></div>
+        <footer>
+            <p>Copyright &copy;<time datetime="2020"> 2020 </time> &nbsp; Javier Martín - Daniel Laguna &nbsp; <a href="index.html" class="sb"> Sobre nosotros</a>
+            &nbsp; <a href="Accesibilidad.html" class="sb">Declaración de accesibilidad</a></p>
+        </footer>        
+</body>
+</html>
